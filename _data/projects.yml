@@ -6,13 +6,13 @@
       path: "portfolio.png" # path: assets/project/
       alt: "A screenshot of the portfolio page"
     date: 05/2022 &ndash; Developing
-    title: Grape-Theme
+    title: My title name
     summary: Academic portfolio jekyll theme.
     description: A modification of the Grape-Theme for jekyll to be useable as an academic portfolio.
     contents:
         - title: 1. Portfolio Page
           image:
-            path: portfolio.png
+            path: portfolio.png 
             alt: "A screenshot of the portfolio page"
           description: <li>Concise portfolio page</li>
             <li>Recent publications</li>
@@ -34,9 +34,9 @@
 - project:
     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
     modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
-    url:  # Full URL
+    url:  
     image: # path: assets/project/
     date: 06/2019 &ndash; Developing
     title: Dummy project
     summary: This is a Dummy
-    description:  
+    description:  hi there

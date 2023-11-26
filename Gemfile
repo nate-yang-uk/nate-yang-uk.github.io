@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 source "https://rubygems.org"
-gemspec
+#gemspec
 
-gem "webrick"
+#gem "webrick"
 gem "kramdown-parser-gfm"
 
 gem "jekyll", ">= 4.3.0"
