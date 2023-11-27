@@ -20,7 +20,9 @@ layout: page
       </div>
       <div class="text-wrap col-12 col-md-8">
         <h2 class="username">{{ profile.username }}</h2>
-        <div class="description">{{ profile.description | markdownify }}</div>
+        <div class="description">
+            {{ profile.description | markdownify }}
+          </div>
 
         <ul id="icons">
           {% include social.html %}

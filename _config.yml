@@ -5,8 +5,11 @@ baseurl: ""
 # Features Setting
 # Turn subpages on or off
 publications: True
-presentations: true
-blog: true
+presentations: false
+blog: false
+
+recent_publication: false
+
 
 # Language of the website
 lang: en
@@ -16,15 +19,9 @@ title: Nate Yang Xingyu Yang
 tagline: OCT advanced sensing tech
 description: Testing the theme
 author: (Nate) Xingyu Yang
-twitter:
-  username: chrjabs
-  card: A jekyll theme for academic portfolios
-logo: /assets/img/smile.png
-social:
-  name: Christoph Jabs
-  links:
-    - https://twitter.com/chrjabs
-    - https://github.com/chrjabs
+
+logo: /assets/img/profile.png
+
 locale: en_GB
 
 # Page Settings
@@ -37,6 +34,8 @@ theme_settings:
   awards_title: AWARDS
   projects_title: PROJECTS
   recentpubs_title: RECENT PUBLICATIONS
+
+
 
 # Pagination
 paginate: 5

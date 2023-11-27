@@ -1,9 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\_bibliography",
-    "\\_data"
+    "\\blog",
+    "\\_data",
+    "\\_includes"
   ],
-  "SelectedNode": "\\_bibliography\\publications.bib",
   "PreviewInSolutionExplorer": false
 }

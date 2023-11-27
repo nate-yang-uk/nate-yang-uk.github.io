@@ -1,3 +1,16 @@
+﻿- project:
+    print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
+    modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
+    url:  
+    image: 
+        path: "ICURe.png" # path: assets/project/
+        alt: "Line-field OCT"
+    date: 06/2019 &ndash; Developing
+    title: Dummy project
+    summary: This is a Dummy
+    description:  hi there
+
+
 - project :
     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
     modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
@@ -8,7 +21,7 @@
     date: 05/2022 &ndash; Developing
     title: My title name
     summary: Academic portfolio jekyll theme.
-    description: A modification of the Grape-Theme for jekyll to be useable as an academic portfolio.
+    description: A modification of the Grape-Theme for jekyll to be useable as an academic portfolio.A modification of the Grape-Theme for jekyll to be useable as an academic portfolio.
     contents:
         - title: 1. Portfolio Page
           image:
@@ -24,7 +37,7 @@
           description: <li>Responsive Layout</li>
             <li>Tags</li> 
             <li>Pagination</li>
-        - title: 3. Tags Page
+        - title: 3. Tags PageW
           image:
             path: tags.png
             alt: "A screenshot of the tags page"
@@ -35,8 +48,65 @@
     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
     modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
     url:  
-    image: # path: assets/project/
+    video: 
+      path: "PCB.mp4" # path: assets/project/
+      alt: "3D Optical Coherence Tomography(OCT) visualisation of a PCB"
+    date: 12/2022 &ndash; Developing
+    title: DaaP in-line inspeaction NDE
+    summary: This is a Dummy
+    description: Development of an in-line and non-destructive inspection method for power electronics module package quality assessment (£542k EPSRC research)
+    contents:
+        - title: 1. 3D in-line inspection
+          video: 
+              path: "PCB.mp4" # path: assets/project/
+              alt: "3D Optical Coherence Tomography(OCT) visualisation of a PCB"
+          description: <li>Responsible for the design, implementation, and testing of a novel line-field OCT system that fulfils the need (optical design, practical knowledge)</li>
+                    <li>In-line quality monitoring -- high-speed internal structural integrity assessment (image processing, segmentation, quantification).</li>
+                    <li>Dynamic measurement -- deformation assessment during power cycling (optical vibrometry, data validation).</li>
+        - title: 2. Durabilty/life span prediction
+          image: 
+              path: "wireBond.png" # path: assets/project/
+              alt: "Wire bon Durability and life-span monitoring/prediction"
+          description: <li>Responsible for the design, implementation, and testing of a novel line-field OCT system that fulfils the need (optical design, practical knowledge)</li>
+                    <li>In-line quality monitoring -- high-speed internal structural integrity assessment (image processing, segmentation, quantification).</li>
+                    <a href="https://doi.org/10.1364/DH.2022.Tu4A.2">https://doi.org/10.1364/DH.2022.Tu4A.2</a>
+
+
+
+- project:
+    print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
+    modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
+    url:  
+    image: 
+        path: "SortDR.png" # path: assets/project/
+        alt: "OCT + fundus"
+    date: 06/2019 &ndash; 04/2022
+    title: SortDR Line-scanning fundus photgraphy + OCT
+    summary: This is a Dummy
+    description:  hi there
+
+- project:
+    print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
+    modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
+    url:  
+    image: 
+        path: "vitalSign.png" # path: assets/project/
+        alt: "mmWave Vital Sign Monitoring"
+    date: 02/2020 &ndash; 08/2021
+    title: Dummy project
+    summary: This is a Dummy
+    description:  hi there
+
+- project:
+    print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
+    modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
+    url:  
+    image: 
+        path: "ZJ_LFOCT.png" # path: assets/project/
+        alt: "Line-field OCT"
     date: 06/2019 &ndash; Developing
     title: Dummy project
     summary: This is a Dummy
     description:  hi there
+
+

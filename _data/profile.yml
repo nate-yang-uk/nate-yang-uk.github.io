@@ -1,27 +1,36 @@
-image: assets/img/smile.png
+﻿image: assets/img/profile.jpg
 username: (Nate) Xingyu Yang
-description: OCT Opitcal ICURe
-webpage: https://chrjabs.github.io
+description: <p>    I am an optical imaging researcher/optical engineer with a focus on medical imaging device development. I have authored/co-authored in a range of publications in Scientific Reports, Optica Publishing Group, Plant Direct, etc.</p>  <p>I am also a ICURe alumni and an Entrepreneurial Lead from SETSquared February 2023 Cohort. My team was recommended to spin-out from the university by the final Optional Roundabout panel. We are in the business planning stage and I am happy to have a chat if you are interested in our case.</p>
+webpage: https://tbd.github.io
 experience: # Remove for hiding the experience section
-  - start: 2017-05-03
-    end: 2018-05-06
-    experience : company name, title
-  - start: 2017-05-03
-    end: 2018-05-06
-    experience : company name, title
+  - start: 2022-05-01
+    end: Present
+    experience : University of Liverpool, Research Associate
+  - start: 2023-02-28
+    end: 2023-08-31
+    experience : ICURe SETSquared, Entrepreneurial Lead
+  - start: 2018-10-01
+    end: 2022-04-30
+    experience :  University of Liverpool, Research Assistant.
+
 
 
 interests: # Remove for hiding the interests section
-  - Interest 1
-  - Interest 2
+  - Optical Coherence Tomography
+  - Retinal fundus photography
+  - mmWave radar applications
 skills: # Remove for hiding the skills section
-  - skill: HTML5 & CSS
+  - skill: Optical deisgn & hands-on
     value: 85  # Percent value
-  - skill: HTML5 & CSS
-    value: 85  # Percent value
+  - skill: Optical & numerical modelling (ZeMax & Matlab)
+    value: 80  # Percent value
+  - skill: Programme (Matlab, C/C++, Python, HTML/CSS/PHP)
+    value: 90  # Percent value
+  - skill: Data analysis & visualisation
+    value: 80  # Percent value
 social:
   email:  nateyang662@gmail.com # Full email address, e.g. "sample@google.com"
-  orcid: 
+  orcid: 0000-0003-2871-8025
   scholar: 
   publons: 
   research_gate: https://www.researchgate.net/profile/Xingyu-Yang-14
@@ -38,4 +47,6 @@ social:
   facebook:
   instagram:
 awards: # Remove for hiding the awards section
-  - "This is an award I got"
+  - ICURe Explore -- Innovate UK (>£40k)
+  - Fully Funded Ph.D. -- EPSRC UK (>£60k)
+  - Tung's Scholarship -- University of Liverpool (>£20k)
