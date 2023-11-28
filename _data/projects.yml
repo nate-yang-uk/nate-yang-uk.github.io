@@ -14,7 +14,7 @@
 - project :
     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
     modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
-    url: https://github.com/chrjabs/Grape-Academic-Theme # Full URL
+    url: https://nate-yang-uk.github.io/ # Full URL
     image:
       path: "portfolio.png" # path: assets/project/
       alt: "A screenshot of the portfolio page"
