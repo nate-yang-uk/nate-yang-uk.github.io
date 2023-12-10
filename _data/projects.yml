@@ -4,12 +4,24 @@
     url:  
     image: 
         path: "ICURe.png" # path: assets/project/
-        alt: "Line-field OCT"
+        alt: "ICURe and Commercialisation"
     date: 06/2019 &ndash; Developing
-    title: Dummy project
+    title: ICURe by Innovate UK
     summary: This is a Dummy
-    description:  hi there
-
+    description:  “Innovation-to-Commercialisation of University Research” (ICURe) is the UK's leading early stage research accelerator programme. I am  a ICURe alumni and an Entrepreneurial Lead from SETSquared February 2023 Cohort. The innovation "Transforming Intrusive Retinal Angiography with AI-Enhanced Wide-field Optical Coherence Tomography (OCT) Technology" I represent was recommended to spin-out from the university by the final Optional Roundabout panel. 
+    contents:
+        - title: 1. Portfolio Page
+          image:
+            path: Strategizer_BMC.png
+            alt: "A screenshot of the portfolio page"
+          description: <li>Concise portfolio page</li>
+            <li>Recent publications</li>
+            <li>Projects</li>
+        - title: 2. Business Model Canvas (BMC) from Strategizer
+          image:
+            path: Strategizer_BMC.jpg
+            alt: "Business Model Canvas (Strategizer)"
+          description: We are in the business planning stage and I am happy to have a chat if you are interested in our case.
 
 - project :
     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
