@@ -7,19 +7,17 @@
         alt: "ICURe and Commercialisation"
     date: 06/2019 &ndash; Developing
     title: ICURe by Innovate UK
-    summary: This is a Dummy
-    description:  “Innovation-to-Commercialisation of University Research” (ICURe) is the UK's leading early stage research accelerator programme. I am  a ICURe alumni and an Entrepreneurial Lead from SETSquared February 2023 Cohort. The innovation "Transforming Intrusive Retinal Angiography with AI-Enhanced Wide-field Optical Coherence Tomography (OCT) Technology" I represent was recommended to spin-out from the university by the final Optional Roundabout panel. 
+    summary:
+    description:  I am  a ICURe alumni and an Entrepreneurial Lead from SETSquared February 2023 Cohort.  <br> “Innovation-to-Commercialisation of University Research” (ICURe) is the UK's leading early stage research accelerator programme.
     contents:
-        - title: 1. Portfolio Page
+        - title: Description
+          image:
+            path: icure group pic.jpg
+            alt: "A photo of the ICURe Cohort"
+          description:  The innovation "Transforming Intrusive Retinal Angiography with AI-Enhanced Wide-field Optical Coherence Tomography (OCT) Technology" I represent was recommended to spin-out from the university by the final Optional Roundabout panel. 
+        - title: Business Model Canvas (BMC) from Strategizer
           image:
             path: Strategizer_BMC.png
-            alt: "A screenshot of the portfolio page"
-          description: <li>Concise portfolio page</li>
-            <li>Recent publications</li>
-            <li>Projects</li>
-        - title: 2. Business Model Canvas (BMC) from Strategizer
-          image:
-            path: Strategizer_BMC.jpg
             alt: "Business Model Canvas (Strategizer)"
           description: We are in the business planning stage and I am happy to have a chat if you are interested in our case.
 
@@ -27,34 +25,25 @@
     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
     modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
     url: https://nate-yang-uk.github.io/ # Full URL
-    image:
-      path: "portfolio.png" # path: assets/project/
-      alt: "A screenshot of the portfolio page"
+    video: 
+        path: "LSCFC.mp4" # path: assets/project/
+        alt: "Line-field OCT + Line-scanning Colour Fundus Camera"
     date: 05/2022 &ndash; Developing
-    title: My title name
-    summary: Academic portfolio jekyll theme.
-    description: A modification of the Grape-Theme for jekyll to be useable as an academic portfolio.A modification of the Grape-Theme for jekyll to be useable as an academic portfolio.
+    title: Hands-on Optics Experience
+    summary: The key skills developed from the projects and the responsibilities
+    description: I process extensive expertises in opto-electronics engineering. The key skills developed from the projects and the responsibilities
+            <li>Responsible for the design, implementation, and testing of a true-colour line-scanning fundus camera and novel integration with a single-point OCT.</li>
+                <li>Optical simulation and aberration management (ZeMax); performance evaluation (MATLAB); 3D CAD design (Creo Parametric).</li>
+                <li>Multi-component driver software and user interface development (C/C++, Python, MATLAB).</li>
+
     contents:
-        - title: 1. Portfolio Page
+
+        - title: Skills
           image:
-            path: portfolio.png 
-            alt: "A screenshot of the portfolio page"
-          description: <li>Concise portfolio page</li>
-            <li>Recent publications</li>
-            <li>Projects</li>
-        - title: 2. Optional Blog Functionality
-          image:
-            path: home.png
-            alt: "A screenshot of the blog page"
-          description: <li>Responsive Layout</li>
-            <li>Tags</li> 
-            <li>Pagination</li>
-        - title: 3. Tags PageW
-          image:
-            path: tags.png
-            alt: "A screenshot of the tags page"
-          description: <li>Responsive Layout</li> 
-            <li>Tags</li> 
+            path: skills.png
+            alt: "A summary of the key skills"
+          description:
+
 
 - project:
     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
@@ -68,14 +57,14 @@
     summary: This is a Dummy
     description: Development of an in-line and non-destructive inspection method for power electronics module package quality assessment (£542k EPSRC research)
     contents:
-        - title: 1. 3D in-line inspection
+        - title: 3D in-line inspection
           video: 
               path: "PCB.mp4" # path: assets/project/
               alt: "3D Optical Coherence Tomography(OCT) visualisation of a PCB"
           description: <li>Responsible for the design, implementation, and testing of a novel line-field OCT system that fulfils the need (optical design, practical knowledge)</li>
                     <li>In-line quality monitoring -- high-speed internal structural integrity assessment (image processing, segmentation, quantification).</li>
                     <li>Dynamic measurement -- deformation assessment during power cycling (optical vibrometry, data validation).</li>
-        - title: 2. Durabilty/life span prediction
+        - title: Durabilty/life span prediction
           image: 
               path: "wireBond.png" # path: assets/project/
               alt: "Wire bon Durability and life-span monitoring/prediction"
@@ -94,21 +83,40 @@
         alt: "OCT + fundus"
     date: 06/2019 &ndash; 04/2022
     title: SortDR Line-scanning fundus photgraphy + OCT
-    summary: This is a Dummy
-    description:  hi there
+    summary: An EPSRC GCRF funded project
+    description:  A solution for a global vision pandemic -- Diebetic Retinopathy (DR)
+    contents:
+        - title: Dual-modoal imaging system developed and tested
+          description: Diabetic retinopathy (DR) is an eye disease that can cause vision loss and blindness in people who have diabetes. Treatments are effective but only if the disease is detected early enough. Current methods of detecting DR rely on costly imaging equipment and many skilled personnel to take and interpret retinal images. <br> <br>We have developed novel, low-cost, diagnostic technologies for the detection of DR. These technologies will enable cost-effective, large-scale detection of sight-threatening disease to be performed by non-expert health care workers at the time and place of patient care in China and worldwide.
+                    This project is funded by EPSRC Global Challenges Research Fund (EP/R014094/1, 2018—2022).
+
 
 - project:
     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
     modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
     url:  
-    image: 
-        path: "vitalSign.png" # path: assets/project/
+    video: 
+        path: "vital sign.mp4" # path: assets/project/
         alt: "mmWave Vital Sign Monitoring"
     date: 02/2020 &ndash; 08/2021
-    title: Dummy project
-    summary: This is a Dummy
-    description:  hi there
+    title: Fast and Accurate Remote Vital Sign Monitoring
+    summary: 
+    description:  A novel method that utilises a frequency-sweeping mmWave radar and intensity based face video recording to accutrately measure heart rate and respiratory rate contactlessly.
+                
+    contents:
+        - title: Dual system monitoring
+          image: 
+              path: "vitalSign2.png" # path: assets/project/
+              alt: "vital sign processing flow"
+          description: Here we propose an image segmentation-based method to extract vital signs from the recorded video and mm-wave radar signals. The proposed method analyses time–frequency spectrograms obtained from Short-Time Fourier Transform rather than individual time-domain signals. This leads to much-improved robustness and accuracy of the heart rate and respiration rate extraction over existing methods. 
 
+        - title:
+          image: 
+              path: "vitalSign.png" # path: assets/project/
+              alt: "Vital sign signal generation"
+          description: Significant improvements were observed in terms of precision, accuracy, and stability. The performance was reflected by achieving an averaged Pearson correlation coefficient (PCC) of 93.8% on multiple subjects.
+                Check out our paper
+                <a href="https://www.nature.com/articles/s41598-022-19198-1">10.1038/s41598-022-19198-1</a>
 - project:
     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
     modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
