@@ -116,8 +116,12 @@
                 font-size: 0.95rem;
             }
 
+            li {
+                font-size: 0.9rem;
+            }
+
             a {
-                font-style:italic;
+                font-style: italic;
                 font-size: 0.8rem;
                 color: $theme-dark;
             }

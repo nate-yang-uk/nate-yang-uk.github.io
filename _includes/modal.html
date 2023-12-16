@@ -20,7 +20,6 @@
 
             {% if project.video %}
             <video autoplay loop muted src="{{ project.video.path | prepend: '/assets/project/' | relative_url }}" alt="{{ project.video.alt }}">
-                PCB video
             </video>
             {% endif %}
 
@@ -31,6 +30,11 @@
                 <div class="title">{{ content.title }}</div>
                 {% if content.image %}
                 <img src="{{ content.image.path | prepend: '/assets/project/' | relative_url }}" alt="{{ content.image.alt }}">
+                {% endif %}
+                {% if content.video %}
+                <video autoplay loop muted src="{{ project.video.path | prepend: '/assets/project/' | relative_url }}" alt="{{ project.video.alt }}">
+ 
+                </video>
                 {% endif %}
                 <div class="description">{{ content.description }}</div>
             </div>

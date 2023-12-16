@@ -5,7 +5,7 @@
     image: 
         path: "ICURe.png" # path: assets/project/
         alt: "ICURe and Commercialisation"
-    date: 06/2019 &ndash; Developing
+    date: 06/2019 &ndash; On-going
     title: ICURe by Innovate UK
     summary:
     description:  I am  a ICURe alumni and an Entrepreneurial Lead from SETSquared February 2023 Cohort.  <br> “Innovation-to-Commercialisation of University Research” (ICURe) is the UK's leading early stage research accelerator programme.
@@ -21,29 +21,6 @@
             alt: "Business Model Canvas (Strategizer)"
           description: We are in the business planning stage and I am happy to have a chat if you are interested in our case.
 
-- project :
-    print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
-    modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
-    url: https://nate-yang-uk.github.io/ # Full URL
-    video: 
-        path: "LSCFC.mp4" # path: assets/project/
-        alt: "Line-field OCT + Line-scanning Colour Fundus Camera"
-    date: 05/2022 &ndash; Developing
-    title: Hands-on Optics Experience
-    summary: The key skills developed from the projects and the responsibilities
-    description: I process extensive expertises in opto-electronics engineering. The key skills developed from the projects and the responsibilities
-            <li>Responsible for the design, implementation, and testing of a true-colour line-scanning fundus camera and novel integration with a single-point OCT.</li>
-                <li>Optical simulation and aberration management (ZeMax); performance evaluation (MATLAB); 3D CAD design (Creo Parametric).</li>
-                <li>Multi-component driver software and user interface development (C/C++, Python, MATLAB).</li>
-
-    contents:
-
-        - title: Skills
-          image:
-            path: skills.png
-            alt: "A summary of the key skills"
-          description:
-
 
 - project:
     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
@@ -52,9 +29,9 @@
     video: 
       path: "PCB.mp4" # path: assets/project/
       alt: "3D Optical Coherence Tomography(OCT) visualisation of a PCB"
-    date: 12/2022 &ndash; Developing
+    date: 12/2022 &ndash; On-going
     title: DaaP in-line inspeaction NDE
-    summary: This is a Dummy
+    summary: 
     description: Development of an in-line and non-destructive inspection method for power electronics module package quality assessment (£542k EPSRC research)
     contents:
         - title: 3D in-line inspection
@@ -86,7 +63,11 @@
     summary: An EPSRC GCRF funded project
     description:  A solution for a global vision pandemic -- Diebetic Retinopathy (DR)
     contents:
+
         - title: Dual-modoal imaging system developed and tested
+          video: 
+              path: "LSCFC.mp4" # path: assets/project/
+              alt: "Line-field OCT + Line-scanning Colour Fundus Camera"
           description: Diabetic retinopathy (DR) is an eye disease that can cause vision loss and blindness in people who have diabetes. Treatments are effective but only if the disease is detected early enough. Current methods of detecting DR rely on costly imaging equipment and many skilled personnel to take and interpret retinal images. <br> <br>We have developed novel, low-cost, diagnostic technologies for the detection of DR. These technologies will enable cost-effective, large-scale detection of sight-threatening disease to be performed by non-expert health care workers at the time and place of patient care in China and worldwide.
                     This project is funded by EPSRC Global Challenges Research Fund (EP/R014094/1, 2018—2022).
 
@@ -96,7 +77,7 @@
     modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
     url:  
     video: 
-        path: "vital sign.mp4" # path: assets/project/
+        path: "vitalSign.mp4" # path: assets/project/
         alt: "mmWave Vital Sign Monitoring"
     date: 02/2020 &ndash; 08/2021
     title: Fast and Accurate Remote Vital Sign Monitoring
@@ -104,6 +85,7 @@
     description:  A novel method that utilises a frequency-sweeping mmWave radar and intensity based face video recording to accutrately measure heart rate and respiratory rate contactlessly.
                 
     contents:
+
         - title: Dual system monitoring
           image: 
               path: "vitalSign2.png" # path: assets/project/
@@ -115,18 +97,34 @@
               path: "vitalSign.png" # path: assets/project/
               alt: "Vital sign signal generation"
           description: Significant improvements were observed in terms of precision, accuracy, and stability. The performance was reflected by achieving an averaged Pearson correlation coefficient (PCC) of 93.8% on multiple subjects.
-                Check out our paper
+                <br>Check out our paper ->
                 <a href="https://www.nature.com/articles/s41598-022-19198-1">10.1038/s41598-022-19198-1</a>
-- project:
-    print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
+
+
+
+- project :
+    print: False # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
     modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
-    url:  
-    image: 
-        path: "ZJ_LFOCT.png" # path: assets/project/
-        alt: "Line-field OCT"
-    date: 06/2019 &ndash; Developing
-    title: Dummy project
-    summary: This is a Dummy
-    description:  hi there
+    url: https://nate-yang-uk.github.io/ # Full URL
+    video: 
+        path: "LSCFC.mp4" # path: assets/project/
+        alt: "Line-field OCT + Line-scanning Colour Fundus Camera"
+    date: 05/2022 &ndash; On-going
+    title: Hands-on Optics Experience
+    summary: The key skills developed from the projects and the responsibilities
+    description: I process extensive expertises in opto-electronics engineering. The key skills developed from the projects and the responsibilities
+            <li>Responsible for the design, implementation, and testing of a true-colour line-scanning fundus camera and novel integration with a single-point OCT.</li>
+                <li>Optical simulation and aberration management (ZeMax); performance evaluation (MATLAB); 3D CAD design (Creo Parametric).</li>
+                <li>Multi-component driver software and user interface development (C/C++, Python, MATLAB).</li>
+
+    contents:
+
+        - title: Skills
+          image:
+            path: skills.png
+            alt: "A summary of the key skills"
+          description: <li>Responsible for the design, implementation, and testing of a novel line-field OCT system that fulfils the need (optical design, practical knowledge)</li>
+                    <li>In-line quality monitoring -- high-speed internal structural integrity assessment (image processing, segmentation, quantification).</li>
+                    <li>Dynamic measurement -- deformation assessment during power cycling (optical vibrometry, data validation).</li>
 
 

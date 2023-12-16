@@ -2,12 +2,14 @@
     <div class="project-wrap">
         <p class="title">{{ site.theme_settings.projects_title }}</p>
         <div class="card-container">
-            {% for _ in site.data.projects %}
+            {% for _ in site.data.projects %}  
             {% assign project = _.project %}
             {% assign id = id | plus: 1 %}
+        
             <div class="row">
                 <div class="img-wrap col-12">
                     <div class="card-wrapper">
+                        {% if project.print %}
                         <div class="card">
                             {% if project.image %}
                             {% if project.modal %}
@@ -26,7 +28,7 @@
                                 <div class="img-wrap">
 
                                     <video autoplay loop muted src="{{ project.video.path | prepend: '/assets/project/' | relative_url }}" alt="{{ project.video.alt }}">
-               
+                                        PCB video
                                     </video>
                                 </div>
                             </a>
@@ -68,16 +70,18 @@
                                 {% endif %}
                             </div>
                         </div>
+                        {% endif %}
                     </div>
+
                 </div>
-                </div>
-                <!-- Modal Box -->
-                {% if project.modal %}
-                {% include modal.html %}
-                {% endif %}
-                <!-- Modal Box -->
-                {% endfor %}
             </div>
+            <!-- Modal Box -->
+            {% if project.modal %}
+            {% include modal.html %}
+            {% endif %}
+            <!-- Modal Box -->
+            {% endfor %}
+        </div>
         </div>
     <div class="bg"></div>
 </section>
