@@ -18,8 +18,8 @@ experience: # Remove for hiding the experience section
 
 interests: # Remove for hiding the interests section
   - Optical Coherence Tomography
-  - Retinal fundus photography
-  - mmWave radar applications
+  - Laser Scanning imaging technology
+  - Frequency-sweeping applications
 skills: # Remove for hiding the skills section
   - skill: Free space & fibre-based optics hands on expierence
     value: 85  # Percent value
@@ -37,7 +37,7 @@ social:
   research_gate: https://www.researchgate.net/profile/Xingyu-Yang-14
   dblp:  # Full URL
   semantic_scholar:  # Full URL
-  linkedin:  X.Yang63@liverpool.ac.uk # Full URL 
+  linkedin:  https://www.linkedin.com/in/nateyanguk/ # Full URL 
   github: 
   gitlab: 
   bitbucket: 

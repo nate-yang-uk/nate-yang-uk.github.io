@@ -4,11 +4,12 @@ baseurl: ""
 
 # Features Setting
 # Turn subpages on or off
-publications: True
-presentations: false
+publications: false
+presentations: true
 blog: false
 
-recent_publication: false
+
+recent_publication: True
 
 
 # Language of the website
