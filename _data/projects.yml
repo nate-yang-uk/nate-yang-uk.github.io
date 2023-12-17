@@ -61,13 +61,18 @@
     summary: An EPSRC GCRF funded project
     description:  A solution for a global vision pandemic -- Diebetic Retinopathy (DR)
     contents:
+        - title: Diabetic retinopathy as a global challenge
+          description: Diabetic retinopathy (DR) is an eye disease that can cause vision loss and blindness in people who have diabetes. Treatments are effective but only if the disease is detected early enough. Current methods of detecting DR rely on costly imaging equipment and many skilled personnel to take and interpret retinal images. <br> <br>We have developed novel, low-cost, diagnostic technologies for the detection of DR. These technologies will enable cost-effective, large-scale detection of sight-threatening disease to be performed by non-expert health care workers at the time and place of patient care in China and worldwide.
 
-        - title: Dual-modoal imaging system developed and tested
+        - title: Dual-modoal imaging system development and testing
           video: 
               path: "LSCFC.mp4" # path: assets/project/
               alt: "Line-field OCT + Line-scanning Colour Fundus Camera"
-          description: Diabetic retinopathy (DR) is an eye disease that can cause vision loss and blindness in people who have diabetes. Treatments are effective but only if the disease is detected early enough. Current methods of detecting DR rely on costly imaging equipment and many skilled personnel to take and interpret retinal images. <br> <br>We have developed novel, low-cost, diagnostic technologies for the detection of DR. These technologies will enable cost-effective, large-scale detection of sight-threatening disease to be performed by non-expert health care workers at the time and place of patient care in China and worldwide.
-                    This project is funded by EPSRC Global Challenges Research Fund (EP/R014094/1, 2018—2022).
+          description: 
+                <li>Own the conceptualisation and delivery of advanced optical test methodologies for key components and sub-systems to improve product performance and reliability.</li>
+                <li>Diagnose and resolve optical system issues, working closely with other engineers to address technical challenges.</li>
+                <li>Maintain detailed documentation of optical designs, experiments, and procedures, facilitating effective transfer of knowledge within the organisation.</li>
+                    <br>This project is funded by EPSRC Global Challenges Research Fund (EP/R014094/1, 2018—2022).
 
 
 - project:
@@ -84,7 +89,7 @@
                 
     contents:
 
-        - title: Dual system monitoring
+        - title: Dual system contact-free monitoring
           image: 
               path: "vitalSign2.png" # path: assets/project/
               alt: "vital sign processing flow"

@@ -4,8 +4,10 @@ baseurl: ""
 
 # Features Setting
 # Turn subpages on or off
+# Need to restart server to see changes taking effect
+home: false
 publications: false
-presentations: true
+presentations: false
 blog: false
 
 

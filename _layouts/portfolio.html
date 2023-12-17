@@ -45,6 +45,17 @@ layout: page
 
     {% include projects.html %}
 
-    {% include recentpubs.html %}
-    {{ site.recent_publication}}
+ 
+
+
+    <section id="recentpubs">
+        <div class="recentpubs-wrap">
+            <p class="title">{{ site.theme_settings.recentpubs_title }}</p>
+
+            {% bibliography --group_by year --group_order descending %}
+            
+        </div>
+    </section>
+
+
 </div>
