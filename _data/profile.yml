@@ -1,6 +1,6 @@
 ﻿image: assets/img/profile.jpg
-username: (Nate) Xingyu Yang
-description: <br>I am an optical imaging researcher/optical engineer with a focus on medical imaging device development. I have authored/co-authored in a range of publications in Scientific Reports, Optica Publishing Group, Plant Direct, etc. <br>I am also a ICURe alumni and an Entrepreneurial Lead from SETSquared February 2023 Cohort. My team was recommended to spin-out from the university by the final Optional Roundabout panel. We are in the business planning stage and I am happy to have a chat if you are interested in our case.
+username: (Nate) Xingyu Yang, P.hD.
+description: <br>I am an post-doctoral optical imaging researcher/optical engineer with a focus on medical imaging device development. I have authored/co-authored in a range of publications in Scientific Reports, Optica Publishing Group, Plant Direct, etc. <br>I am also a ICURe alumni and an Entrepreneurial Lead from SETSquared February 2023 Cohort. My team was recommended to spin-out from the university by the final Optional Roundabout panel. We are in the business planning stage and I am happy to have a chat if you are interested in our case.
 
 webpage: https://nate-yang-uk.github.io/
 experience: # Remove for hiding the experience section
@@ -10,7 +10,7 @@ experience: # Remove for hiding the experience section
   - start: 2023-02-28
     end: 2023-08-31
     experience : ICURe SETSquared, Entrepreneurial Lead
-  - start: 2018-10-01
+  - start: 2019-10-01
     end: 2022-04-30
     experience :  University of Liverpool, Research Assistant
 
