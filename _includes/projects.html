@@ -2,14 +2,16 @@
     <div class="project-wrap">
         <p class="title">{{ site.theme_settings.projects_title }}</p>
         <div class="card-container">
-            {% for _ in site.data.projects %}  
+
+            {% for _ in site.data.projects %}
             {% assign project = _.project %}
+            {% if project.print %}
             {% assign id = id | plus: 1 %}
-        
+            
             <div class="row">
                 <div class="img-wrap col-12">
                     <div class="card-wrapper">
-                        {% if project.print %}
+                        
                         <div class="card">
                             {% if project.image %}
                             {% if project.modal %}

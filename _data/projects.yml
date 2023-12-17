@@ -35,9 +35,7 @@
     description: Development of an in-line and non-destructive inspection method for power electronics module package quality assessment (£542k EPSRC research)
     contents:
         - title: 3D in-line inspection
-          video: 
-              path: "PCB.mp4" # path: assets/project/
-              alt: "3D Optical Coherence Tomography(OCT) visualisation of a PCB"
+
           description: <li>Responsible for the design, implementation, and testing of a novel line-field OCT system that fulfils the need (optical design, practical knowledge)</li>
                     <li>In-line quality monitoring -- high-speed internal structural integrity assessment (image processing, segmentation, quantification).</li>
                     <li>Dynamic measurement -- deformation assessment during power cycling (optical vibrometry, data validation).</li>
@@ -99,6 +97,7 @@
           description: Significant improvements were observed in terms of precision, accuracy, and stability. The performance was reflected by achieving an averaged Pearson correlation coefficient (PCC) of 93.8% on multiple subjects.
                 <br>Check out our paper ->
                 <a href="https://www.nature.com/articles/s41598-022-19198-1">10.1038/s41598-022-19198-1</a>
+
 
 
 

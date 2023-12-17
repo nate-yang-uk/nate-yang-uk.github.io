@@ -12,7 +12,7 @@ experience: # Remove for hiding the experience section
     experience : ICURe SETSquared, Entrepreneurial Lead
   - start: 2018-10-01
     end: 2022-04-30
-    experience :  University of Liverpool, Research Assistant.
+    experience :  University of Liverpool, Research Assistant
 
 
 
@@ -21,7 +21,7 @@ interests: # Remove for hiding the interests section
   - Retinal fundus photography
   - mmWave radar applications
 skills: # Remove for hiding the skills section
-  - skill: Optical deisgn & hands-on
+  - skill: Free space & fibre-based optics hands on expierence
     value: 85  # Percent value
   - skill: Optical & numerical modelling (ZeMax & Matlab)
     value: 80  # Percent value
