@@ -64,7 +64,7 @@
         - title: Diabetic retinopathy as a global challenge
           description: Diabetic retinopathy (DR) is an eye disease that can cause vision loss and blindness in people who have diabetes. Treatments are effective but only if the disease is detected early enough. Current methods of detecting DR rely on costly imaging equipment and many skilled personnel to take and interpret retinal images. <br> <br>We have developed novel, low-cost, diagnostic technologies for the detection of DR. These technologies will enable cost-effective, large-scale detection of sight-threatening disease to be performed by non-expert health care workers at the time and place of patient care in China and worldwide.
 
-        - title: Dual-modoal imaging system development and testing
+        - title: Dual-modal imaging system development and testing
           video: 
               path: "LSCFC.mp4" # path: assets/project/
               alt: "Line-field OCT + Line-scanning Colour Fundus Camera"
