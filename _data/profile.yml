@@ -18,17 +18,17 @@ experience: # Remove for hiding the experience section
 
 interests: # Remove for hiding the interests section
   - Optical Coherence Tomography (OCT)
-  - Laser Scanning imaging technology
-  - Frequency-sweeping applications
+  - Optical system design, simulation, evaluation
+  - Opthalmic Imaging & Non-destructive Testing
 skills: # Remove for hiding the skills section
   - skill: Free space & fibre-based optics hands on expierence
-    value: 85  # Percent value
+    value: 95  # Percent value
   - skill: Optical & numerical modelling (ZeMax & Matlab)
-    value: 80  # Percent value
-  - skill: Programming (Matlab, C/C++, Python, HTML/CSS/PHP)
     value: 90  # Percent value
+  - skill: Programming (Matlab, C/C++, Python, HTML/CSS/PHP)
+    value: 95  # Percent value
   - skill: Data analysis & visualisation
-    value: 80  # Percent value
+    value: 90  # Percent value
 social:
   email:  nateyang662@gmail.com # Full email address, e.g. "sample@google.com"
   orcid: 0000-0003-2871-8025
