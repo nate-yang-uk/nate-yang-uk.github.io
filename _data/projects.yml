@@ -25,13 +25,7 @@
           image:
             path: zemax.png
             alt: "Optical system simulation in ZeMax"
-          description: Analyse optical system performance and optimise the design to meet the required specifications with tolerance analysis..  
-
-
-          image:
-            path: EHL illustration.png
-            alt: "Illustration of Electrohydrodynamic lubrication (EHL)"
-          description: The optical model for reflectivity behaviour in the EHL tribological contact and Newton's ring formation  
+          description: Analyse optical system performance and optimise the design to meet the required specifications with tolerance analysis.
         - title: 3D CAD design for mechanical housing
           image:
             path: 3DCAD.png
