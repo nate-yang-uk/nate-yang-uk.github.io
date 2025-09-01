@@ -2,6 +2,91 @@
     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
     modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
     url:  
+    
+    image: 
+        path: "walk_through.png" # path: assets/project/
+        alt: "Spectrometer design in Zemax"
+    date: On-going
+    title: Optical system design and implementation workflow
+    summary:
+    description:  To develop optical systems such as polarised light microscopy and Brewster's angle microscopy for in-situ investigation thin film in Electrohydrodynamic lubrication (EHL) how the properties of liquid crystals (LCs) can be leveraged in lubrication.
+                 <br></br>
+                 <li>Fresnel reflection model for multiple reflection in thin films </li>
+                 <li>Polarised light interaction with anisotropic materials (liquid crystals)</li>
+                 <li>Thin film interference condition and Newton's ring formation</li>
+                  <li>Optical system design and implementation</li>
+    contents:
+        - title: Numberical modelling and simulation in Matlab
+          image: 
+            path: numerical_simulation.png
+            alt: "Numberical modelling and simulation in Matlab"
+          description: Develop basic understanding of the optical principles and mathematical models that will serve as the foundation for the optical system design and implementation.
+        - title: Optical system simulation in ZeMax
+          image:
+            path: zemax.png
+            alt: "Optical system simulation in ZeMax"
+          description: Analyse optical system performance and optimise the design to meet the required specifications with tolerance analysis..  
+
+
+          image:
+            path: EHL illustration.png
+            alt: "Illustration of Electrohydrodynamic lubrication (EHL)"
+          description: The optical model for reflectivity behaviour in the EHL tribological contact and Newton's ring formation  
+        - title: 3D CAD design for mechanical housing
+          image:
+            path: 3DCAD.png
+            alt: "3D CAD design for mechanical housing"
+          description: Mechanical housing design and prototyping using 3D CAD software (Creo Parametric & Solidworks).
+        - title: Hands-on implementation of the optical system
+          image:
+            path: implementation.png
+            alt: "Hands-on implementation of the optical system"
+          description: Hands-on implementation of the optical system on the optical breadboard and performance evaluation. Chasis design and prototyping with application specific requirements.            
+        - title: Results analysis and validation
+          image:
+            path: results.png
+            alt: "Results analysis and validation"
+          description: Results analysis and validation against the numerical model and simulation. Quantitative analysis of measured sample data against gold-standard methods.
+        - title: Visualisation of results
+          image:
+            path: visualisation.png
+            alt: "Visualisation of results"
+          description: Visualisation of results with a number of software (MATLAB, ImageJ, Blender, etc.) for effective communication of findings.
+  
+
+- project:
+    print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
+    modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
+    url:  
+    
+    image: 
+        path: "EHL illustration.png" # path: assets/project/
+        alt: "Illustration of Electrohydrodynamic lubrication (EHL)"
+    date: 03/2025 &ndash; On-going
+    title: In situ thin-film Lubrication Characterisation
+    summary:
+    description:  To develop optical systems such as polarised light microscopy and Brewster's angle microscopy for in-situ investigation thin film in Electrohydrodynamic lubrication (EHL) how the properties of liquid crystals (LCs) can be leveraged in lubrication.
+                 <br></br>
+                 <li>Fresnel reflection model for multiple reflection in thin films </li>
+                 <li>Polarised light interaction with anisotropic materials (liquid crystals)</li>
+                 <li>Thin film interference condition and Newton's ring formation</li>
+                  <li>Optical system design and implementation</li>
+    contents:
+        - title: Description
+          image:
+            path: "EHL model.png"
+            alt: "Illustration of Electrohydrodynamic lubrication (EHL)"
+          description: The optical model for reflectivity behaviour in the EHL tribological contact and Newton's ring formation  
+        - title: Oblique angle microscope
+          image:
+            path: Oblique angle microscope.png
+            alt: "Oblique angle microscope"
+          description: Oblique angle microscope for proof of principle measurements.
+
+- project:
+    print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
+    modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
+    url:  
     image: 
         path: "ICURe.png" # path: assets/project/
         alt: "ICURe and Commercialisation"
@@ -29,7 +114,7 @@
     video: 
       path: "PCB.mp4" # path: assets/project/
       alt: "3D Optical Coherence Tomography(OCT) visualisation of a PCB"
-    date: 12/2022 &ndash; On-going
+    date: 12/2022 &ndash; 02/2025
     title: DaaP in-line inspeaction NDE
     summary: 
     description: Development of an in-line and non-destructive inspection method for power electronics module package quality assessment (£542k EPSRC research)
