@@ -1,11 +1,9 @@
-# frozen_string_literal: true
+# Gemfile
 source "https://rubygems.org"
-#gemspec
-
-#gem "webrick"
-gem "kramdown-parser-gfm"
 
 gem "jekyll", ">= 4.3.0"
+gem "kramdown-parser-gfm"
+gem "webrick"         # optional, for local `jekyll serve` on Ruby 3
 
 group :jekyll_plugins do
   gem "jekyll-email-protect"
